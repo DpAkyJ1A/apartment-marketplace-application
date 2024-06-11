@@ -1,0 +1,32 @@
+.create-rent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.create-rent__content {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1rem 2rem 2rem 2rem;
+  background-color: #e8eaed;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+}
+
+.create-rent__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.create-rent__input-wrapper input,
+.create-rent__input-wrapper select {
+  padding: 1rem .5rem;
+  outline: none;
+  border: 1px solid #b7b7b7;
+  border-radius: 2px;
+}
